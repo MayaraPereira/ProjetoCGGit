@@ -67,14 +67,14 @@ public class PanelPrincipal extends JFrame implements ActionListener {
 		setContentPane(PanelPrincipal);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(1024, 720);
-		setTitle("Projeto Computacao Grafica - Corte Suterland");
+		setTitle("Projeto Computacao Grafica");
 		// *****************PANEL DE DESENHO*********************
 		
 		panelDesenho2D = new PanelDeDesenho2D();
 		panelDesenho2D.setLocation(409, 26);
 		PanelPrincipal.add(panelDesenho2D);
 		
-		//Painel de transformações 2D
+		//Painel de transformaÃ§Ãµes 2D
 		PanelPrincipal.repaint();
 		flagPanelA = true;
 		flagPanelB = false;
@@ -170,7 +170,7 @@ public class PanelPrincipal extends JFrame implements ActionListener {
 		
 		//
 		if (o.equals(mntmEquippe)){
-			String team = "Mayara Victoria\n" + "Mateus\n" + "Ricardo Gabriel";
+			String team = "Mayara Victoria\n" + "Mateus Cavalcante\n" + "Ricardo Gabriel";
 			JOptionPane.showMessageDialog(null, team);
 		}
 		
